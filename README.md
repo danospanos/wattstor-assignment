@@ -13,6 +13,7 @@ This project contains a Python script (train_model.py) for training a crossvalid
 You can initialize using pipenv, in the project directory with:
 
 > pipenv --python 3.10.0
+
 > pipenv install -r requirements.txt
 
  3) Set the Python path
