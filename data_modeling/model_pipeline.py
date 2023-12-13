@@ -112,7 +112,7 @@ class ModelEstimator:
         Args:
             max_lambda (int): Maximum lambda for Lasso regularization.
         """
-        self.max_lambda = 100
+        self.max_lambda = max_lambda
         # For better LASSO convergence
         self.scaler = StandardScaler()
 
